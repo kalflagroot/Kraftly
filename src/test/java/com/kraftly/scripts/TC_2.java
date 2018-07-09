@@ -21,7 +21,6 @@ public class TC_2 extends BaseTest {
 	{
 		LoginPage loginPagePO= new LoginPage(driver, wait);
 		HomePage homePagePo = new HomePage(driver, wait);
-		
 		GoogleSignIn googleSignInPO= new GoogleSignIn(driver, wait);
 		ProductDetailsPage detailsPage= new ProductDetailsPage(driver, wait);
 		homePagePo.getSignupBTN().click();
